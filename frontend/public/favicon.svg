@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="oceanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f9b9b" />
+      <stop offset="50%" stop-color="#1e56d6" />
+      <stop offset="100%" stop-color="#0f1f3d" />
+    </linearGradient>
+    <linearGradient id="fishGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#e0f7fa" />
+    </linearGradient>
+  </defs>
+  <!-- Background Badge -->
+  <rect width="64" height="64" rx="16" fill="url(#oceanGrad)" />
+  <!-- Stylized Fish Shape -->
+  <path d="M48 32 C41 21 25 21 16 28 C12 25 8 23 6 25 C8 29 8 35 6 39 C8 41 12 39 16 36 C25 43 41 43 48 32 Z" fill="url(#fishGrad)" />
+  <!-- Eye -->
+  <circle cx="41" cy="30" r="2.6" fill="#0f1f3d" />
+  <circle cx="42" cy="29" r="0.9" fill="#ffffff" />
+  <!-- Fin Accent -->
+  <path d="M30 32 C28 36 24 38 21 37 C23 34 25 32 27 32 Z" fill="#0f9b9b" opacity="0.9" />
+  <!-- Gill line -->
+  <path d="M36 26 C38 29 38 35 36 38" stroke="#1e56d6" stroke-width="1.5" stroke-linecap="round" fill="none" opacity="0.4" />
+  <!-- Water bubbles -->
+  <circle cx="51" cy="24" r="2" fill="#ffffff" opacity="0.75" />
+  <circle cx="56" cy="19" r="1.3" fill="#ffffff" opacity="0.5" />
+</svg>
